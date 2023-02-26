@@ -4,9 +4,15 @@
 
 body {
   margin: 0;
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  background-color: #282d35;
+  font-family: "Inter", sans-serif;
+
+  background-image: url("./images/logo.svg");
+  background-repeat: no-repeat;
+  background-position: right 100%;
+  /* background-size: 90%; */
+  background-position-x: 650%;
+  background-blend-mode: color-burn;
 }
 
 code {

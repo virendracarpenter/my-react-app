@@ -9,10 +9,10 @@ body {
 
   background-image: url("./images/logo.svg");
   background-repeat: no-repeat;
-  background-position: right 100%;
-  /* background-size: 90%; */
-  background-position-x: 650%;
+  background-position: right -50% top 50%;
+  background-size: 50%;
   background-blend-mode: color-burn;
+  /* animation: nav-logo-rotation 8s infinite linear; */
 }
 
 code {
